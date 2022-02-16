@@ -5,20 +5,32 @@
     <script src="./script.js"></script>
 </head>
     <body>
-        <h1 id="heading">WELCOME EVERYONE!</h1>
+        <h1 id="heading">WELCOME EVERYONE! To The Simple Calculator Format</h1> 
     <div class="container">
       <div class="main" id="heading" onmouseover="myfunction()">
          <div class="screen"><input type="text" placeholder="0" name="Inputscreen" value=""  id="input"></div>
          <div class="box1" onclick="value1()">1</div>
          <div class="box2" onclick="value2()">2</div>
          <div class="box3" onclick="value3()">3</div>
+         <div class="boxdiv" onclick="valuediv()">/</div>
+         
+
          <div class="box4" onclick="value4()">4</div>
          <div class="box5" onclick="value5()">5</div>
          <div class="box6" onclick="value6()">6</div>
+         <div class="boxmul" onclick="valuemul()">*</div>
+
          <div class="box7" onclick="value7()">7</div>
          <div class="box8" onclick="value8()">8</div>
          <div class="box9" onclick="value9()">9</div>
+         <div class="boxadd" onclick="valueadd()">+</div>
+
+         <div class="boxdot" onclick="valuedot()">.</div>
          <div class="box0" onclick="value0()">0</div>
+         <div class="boxclear" onclick="valueclear()">C</div>
+         <div class="boxsub " onclick="valuesub()">-</div>
+
+         <div class="boxequal " onclick="valueequal()">=</div>
         </div>
     </div>
 </body>
